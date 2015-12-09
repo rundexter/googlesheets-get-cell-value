@@ -4,23 +4,22 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "worksheet",
+            "title":"Sheet ID"
+        },
+        {
+            "id": "range",
+            "title":"Cells in the range"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "value",
+            "title":"Array of values"
         }
-      */
     ],
+    "icon": "google",
     "title": "Google Sheets Get Cell Value" /* Required.A display name for the module */
 }

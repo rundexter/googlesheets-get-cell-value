@@ -1,12 +1,13 @@
 {
-    "name": "google-sheets-get-cell-value",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.js",
-    "author": "Alexander",
-    "license": "ISC",
-    "private": true,
-    "dependencies": {
-        "lodash": "^3.9.3"
-    }
+  "name": "google-sheets-get-cell-value",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Alexander",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "edit-google-spreadsheet": "^0.2.21",
+    "lodash": "^3.10.1"
+  }
 }
