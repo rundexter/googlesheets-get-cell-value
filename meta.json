@@ -20,6 +20,12 @@
             "title":"Array of values"
         }
     ],
+    "providers": [{
+        "name": "google",
+        "scopes": [
+            "https://spreadsheets.google.com/feeds/"
+        ]
+    }],
     "icon": "google",
     "title": "Google Sheets Get Cell Value" /* Required.A display name for the module */
 }
